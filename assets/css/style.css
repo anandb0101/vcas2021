@@ -1103,9 +1103,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# committee
 --------------------------------------------------------------*/
-.features .icon-box {
+.committee .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -1114,13 +1114,13 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box i {
+.committee .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.features .icon-box h3 {
+.committee .icon-box h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -1128,13 +1128,23 @@ section {
   font-size: 16px;
 }
 
-.features .icon-box h3 a {
+.committee .icon-box h3 a {
   color: #111;
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
+.committee .icon-box h3 a:hover {
   color: #ff9100;
+}
+
+/* Table */
+
+table {
+  border-collapse: separate;
+  border-spacing: 1em;
+  text-align: justify;
+  margin-left: 250px ;
+  
 }
 
 /*--------------------------------------------------------------
