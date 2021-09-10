@@ -240,6 +240,11 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
+.nav-link{
+  color: #ff9100;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -532,8 +537,8 @@ section {
   color:#0a2642;
 }
 
-.section-title h2 {
-  font-size: 32px;
+.section-title h1 {
+  font-size: 50px;
   font-weight:bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -541,7 +546,7 @@ section {
   position: relative;
 }
 
-.section-title h2::after {
+.section-title h1::after {
   content: '';
   position: absolute;
   display: block;
