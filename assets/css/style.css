@@ -23,10 +23,8 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
-  max-width: 80%;
-  margin: auto;
 }
 
 .heading {
@@ -153,11 +151,9 @@ h1, h2, h3, h4, h5, h6, p {
 */
 .navbar {
   padding: 0;
+  max-width: 1500px !important;
 }
 
-.container {
-  max-width: 1500px;
-}
 
 .navbar ul {
   margin: 0;
@@ -252,6 +248,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .nav-link{
   color: #ff9100;
+}
+
+.nav-container {
+  max-width: 1500px;
 }
 
 
