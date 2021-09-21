@@ -172,11 +172,15 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.navbar li img{
+  padding-left: 20px;
+}
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 600;
