@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 40px;
+  font-size: 35px;
   float: right;
   margin: 0;
   padding: 0;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar li img{
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .navbar a, .navbar a:focus {
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 20px;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   color: #111;
   white-space: nowrap;
